@@ -11,6 +11,6 @@ export default () => (
     {` `}
     goes.
     <br />
-    Or whatever, you make the rules.
+    Hi it's me haley
   </Fragment>
 )
