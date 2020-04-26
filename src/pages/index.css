@@ -1,3 +1,16 @@
+/* border box reset from css-tricks.com */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* import fonts from typekit */
+  @import url("https://use.typekit.net/dmm0zjq.css");
+/* my styles */
+body{
+    margin: 0;
+}
 #background-div{
     width: 100vw;
     height: 100vh;
@@ -7,13 +20,67 @@
     left: 0;
 }
 
-.none {
-    background-color: white;
+#button-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 2em;
+}
+button{
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.pinky {
-    background-color: pink;
+.none {
+    background-color: none;
 }
+    .none #content-div {
+        padding: 6em 3em;
+    }
+
+.mod #background-div{
+    z-index: -1;
+    background-color: rgb(240, 161, 161);
+}
+    .mod #content-div{
+        z-index: 2;
+    }
+
+    .mod h1 {
+        color: rgb(233, 208, 65);
+        z-index: -1;
+        font-family: blenny, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        position: fixed;
+        font-size: 25vw;
+    }
+    .mod #firstname {
+        line-height: 1em;
+        position: fixed;
+        top:50vh;
+        transform: translateY(-22vw);
+        left:4.5vw;
+    }
+    .mod #lastname {
+        line-height: 1em;
+        position: fixed;
+        bottom:50vh;
+        transform: translateY(22vw);
+        right:4.5vw;
+    }
+    .mod #main-text {
+        font-size: 2em;
+        z-index: 2;
+        margin: 50vh 0 0 0;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .mod #last-paragraph {
+        margin-bottom: 0;
+    }
 
 .minty {
     background-color: rgb(133, 180, 157);
