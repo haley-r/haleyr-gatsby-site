@@ -1,3 +1,20 @@
-div {
-    background-color: rgb(226, 139, 139);
+#background-div{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.none {
+    background-color: white;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.minty {
+    background-color: rgb(133, 180, 157);
 }
