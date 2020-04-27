@@ -181,6 +181,37 @@ button{
         letter-spacing: 14vw;
         line-height: .5em;
     }
+        @media screen and (min-width: 820px) {
+            .metal h1 {
+                color: rgb(60, 127, 138);
+                text-shadow: 1vw .8vw rgb(186, 233, 206);
+                text-transform: lowercase;
+                font-family: amador, sans-serif; 
+                font-size: 20vw;
+                position: fixed;
+            }
+            .metal #firstname {
+                background-color: rgb(250, 226, 250);
+                padding: 0;
+                position: fixed;
+                top: -4vw;
+                left:-5vw;
+                width: 120vw;
+                height: 20vw;
+                letter-spacing: 12vw;
+            }
+            .metal #lastname {    
+                background-color: rgb(250, 226, 250);
+                padding: 0 0 .5em 0;
+                position: fixed;
+                bottom: -4vw;
+                left:-1.5vw;
+                width: 120vw;
+                height: 20vw;
+                letter-spacing: 18vw;
+                line-height: .5em;
+            }
+        }
     .metal #main-text {
         font-family: park-lane, serif;
         font-weight: 300;
