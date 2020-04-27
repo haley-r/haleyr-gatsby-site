@@ -68,8 +68,8 @@ button{
     .mod #lastname {
         line-height: 1em;
         position: fixed;
-        bottom:50vh;
-        transform: translateY(22vw);
+        top:50vh;
+        transform: translateY(-2vw);
         right:4.5vw;
     }
     .mod #main-text {
@@ -95,7 +95,7 @@ button{
 
 .sporty #background-div{
     z-index: -1;
-    background-color: rgb(41, 42, 49);
+    background-color: rgb(194, 197, 219);
 }
     .sporty #content-div{
         z-index: 2;
@@ -108,9 +108,11 @@ button{
         font-style: normal;
         font-weight: 900;
         position: fixed;
-        font-size: 25vw;
+        top: 200px;
+        left: 200px;
+        font-size: 10vw;
     }
-    .sporty #firstname {
+    /* .sporty #firstname {
         line-height: 1em;
         position: fixed;
         top:50vh;
@@ -123,7 +125,7 @@ button{
         bottom:50vh;
         transform: translateY(22vw);
         right:4.5vw;
-    }
+    } */
     .sporty #main-text {
         font-family: all-round-gothic, sans-serif;
         font-weight: 500;
