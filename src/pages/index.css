@@ -125,6 +125,9 @@ button{
     .sporty p {
         margin: 2em 0;
     }
+    .sporty p:hover {
+        color: rgb(0, 156, 156);
+    }
     .sporty #last-paragraph {
         margin-bottom: 0;
     }

@@ -17,7 +17,7 @@ class Index extends Component {
                 currentStyleIndex: 0
             })
         }
-
+        window.scrollTo(0, 0); 
     }
     render(){
         return(
