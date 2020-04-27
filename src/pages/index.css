@@ -43,7 +43,7 @@ button{
 
 .mod #background-div{
     z-index: -1;
-    background-color: rgb(240, 161, 161);
+    background-color: rgb(41, 42, 49);
 }
     .mod #content-div{
         z-index: 2;
@@ -80,17 +80,66 @@ button{
         font-size: 2em;
         z-index: 2;
         margin: 100vh 0 0 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(240, 161, 161, .9) 25%, rgba(240,161, 65,1) 100%);
-        color: rgb(238, 221, 123);
+        padding-top: 25vh;
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(240, 161, 161, .4) 15%, rgb(240, 161, 161, .9) 25%, rgb(240, 106, 65) 100%);
+        color: rgb(251, 220, 42);
+
     }
     .mod #last-paragraph {
         margin-bottom: 0;
     }
     .mod a{
-        color:rgb(233, 208, 65);
+        color: rgb(253, 231, 106);
         text-decoration: none;
     }
 
-.minty {
-    background-color: rgb(133, 180, 157);
+.sporty #background-div{
+    z-index: -1;
+    background-color: rgb(41, 42, 49);
 }
+    .sporty #content-div{
+        z-index: 2;
+    }
+
+    .sporty h1 {
+        color: rgb(233, 208, 65);
+        z-index: -1;
+        font-family: blenny, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        position: fixed;
+        font-size: 25vw;
+    }
+    .sporty #firstname {
+        line-height: 1em;
+        position: fixed;
+        top:50vh;
+        transform: translateY(-22vw);
+        left:4.5vw;
+    }
+    .sporty #lastname {
+        line-height: 1em;
+        position: fixed;
+        bottom:50vh;
+        transform: translateY(22vw);
+        right:4.5vw;
+    }
+    .sporty #main-text {
+        font-family: all-round-gothic, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding: .5em;
+        font-size: 2em;
+        z-index: 2;
+        margin: 100vh 0 0 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(240, 161, 161, .9) 25%, rgba(240,161, 65,1) 100%);
+        color: rgb(233, 255, 90);
+    }
+    .sporty #last-paragraph {
+        margin-bottom: 0;
+    }
+    .sporty a{
+        color: rgb(251, 220, 42);
+        text-decoration: none;
+    }
+
