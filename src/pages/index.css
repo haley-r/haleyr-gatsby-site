@@ -73,13 +73,22 @@ button{
         right:4.5vw;
     }
     .mod #main-text {
+        font-family: all-round-gothic, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding: .5em;
         font-size: 2em;
         z-index: 2;
-        margin: 50vh 0 0 0;
-        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        margin: 100vh 0 0 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(240, 161, 161, .9) 25%, rgba(240,161, 65,1) 100%);
+        color: rgb(238, 221, 123);
     }
     .mod #last-paragraph {
         margin-bottom: 0;
+    }
+    .mod a{
+        color:rgb(233, 208, 65);
+        text-decoration: none;
     }
 
 .minty {
