@@ -98,44 +98,46 @@ button{
 
 .sporty #background-div{
     z-index: -1;
-    background-color: rgb(209, 210, 219);
+    background-color: rgb(37, 85, 230);
 }
     .sporty #content-div{
         z-index: 2;
     }
 
     .sporty h1 {
-        color: rgb(209, 210, 219);
-        text-shadow: 2px 2px 10px rgb(117, 116, 116);
+        color: rgb(238, 241, 241);
+        text-shadow: 2px 2px 16px rgb(89, 98, 98);
         transform: rotate(-90deg);
         z-index: -1;
         font-family: sneakers-script, sans-serif;
         font-size: 13vh;
         position: fixed;
         width: 100vh;
-        top: 33vh;
-        left: -44vh;
+        top: 32vh;
+        left: -43vh;
     }
     .sporty #main-text {
-        font-family: interstate-mono, monospace; 
+        font-family: letter-gothic-std, monospace; 
+        font-weight: 900;
         line-height: 1.6em;
         padding: .5em;
-        font-size: 1.2em;
+        font-size: 1em;
         z-index: 2;
-        margin: 0 5vh 5vh 15vh;
-        color: rgb(113, 113, 124);
+        margin: 5vh 10vh 10vh 20vh;
+        color: rgb(230, 230, 238);
     }
     .sporty p {
         margin: 2em 0;
     }
     .sporty p:hover {
-        color: rgb(0, 156, 156);
+        background-color: rgba(205, 216, 216, 0.6);
+        color: white;
     }
     .sporty #last-paragraph {
         margin-bottom: 0;
     }
     .sporty a{
-        color: rgb(67, 70, 73);
+        color: rgb(255, 255, 255);
         text-decoration: none;
     }
 
@@ -181,7 +183,7 @@ button{
         letter-spacing: 14vw;
         line-height: .5em;
     }
-        @media screen and (min-width: 820px) {
+        @media screen and (min-width: 860px) {
             .metal h1 {
                 color: rgb(60, 127, 138);
                 text-shadow: 1vw .8vw rgb(186, 233, 206);
@@ -233,6 +235,51 @@ button{
         text-decoration: none;
     }
     .metal a:hover{
+        text-decoration: underline;
+    }
+
+.rose-code #background-div{
+    z-index: -1;
+    background-color: rgb(3, 40, 44);
+}
+    .rose-code #content-div{
+        z-index: 2;
+    }
+
+    .rose-code h1 {
+        text-align: right;
+        color: rgb(232, 233, 238);
+        z-index: -1;
+        font-family: ocr-a-std, monospace; 
+        font-size: 10vh;
+        position: fixed;
+        bottom: 10vh;
+        right:10vw;
+    }
+    .rose-code #main-text {
+        font-family: ocr-a-std, monospace; 
+        line-height: 1.6em;
+        padding: .5em;
+        font-size: 1.2em;
+        z-index: 2;
+        margin: 0 5vh 5vh 15vh;
+        color: white;
+    }
+    .rose-code p {
+        margin: 2em 0;
+    }
+    .rose-code p:hover {
+        color: rgb(0, 156, 156);
+    }
+    .rose-code #last-paragraph {
+        margin-bottom: 0;
+    }
+    .rose-code a{
+        color: rgb(67, 70, 73);
+        text-decoration: none;
+    }
+
+    .rose-code a:hover{
         text-decoration: underline;
     }
 
