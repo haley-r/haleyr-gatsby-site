@@ -95,53 +95,45 @@ button{
 
 .sporty #background-div{
     z-index: -1;
-    background-color: rgb(194, 197, 219);
+    background-color: rgb(209, 210, 219);
 }
     .sporty #content-div{
         z-index: 2;
     }
 
     .sporty h1 {
-        color: rgb(233, 208, 65);
+        color: rgb(209, 210, 219);
+        text-shadow: 2px 2px 10px rgb(170, 167, 167);
+        transform: rotate(-90deg);
         z-index: -1;
-        font-family: blenny, sans-serif;
-        font-style: normal;
-        font-weight: 900;
+        font-family: sneakers-script, sans-serif;
+        font-size: 13vh;
         position: fixed;
-        top: 200px;
-        left: 200px;
-        font-size: 10vw;
+        width: 100vh;
+        top: 33vh;
+        left: -44vh;
     }
-    /* .sporty #firstname {
-        line-height: 1em;
-        position: fixed;
-        top:50vh;
-        transform: translateY(-22vw);
-        left:4.5vw;
-    }
-    .sporty #lastname {
-        line-height: 1em;
-        position: fixed;
-        bottom:50vh;
-        transform: translateY(22vw);
-        right:4.5vw;
-    } */
     .sporty #main-text {
-        font-family: all-round-gothic, sans-serif;
-        font-weight: 500;
-        font-style: normal;
+        font-family: interstate-mono, monospace; 
+        line-height: 1.6em;
         padding: .5em;
-        font-size: 2em;
+        font-size: 1.2em;
         z-index: 2;
-        margin: 100vh 0 0 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(240, 161, 161, .9) 25%, rgba(240,161, 65,1) 100%);
-        color: rgb(233, 255, 90);
+        margin: 0 5vh 5vh 15vh;
+        color: rgb(113, 113, 124);
+    }
+    .sporty p {
+        margin: 2em 0;
     }
     .sporty #last-paragraph {
         margin-bottom: 0;
     }
     .sporty a{
-        color: rgb(251, 220, 42);
+        color: rgb(67, 70, 73);
         text-decoration: none;
+    }
+
+    .sporty a:hover{
+        text-decoration: underline;
     }
 
