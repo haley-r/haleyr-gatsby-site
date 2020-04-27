@@ -25,9 +25,12 @@ body{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 2em;
+    height: 2rem;
+    z-index: 100;
+
 }
 button{
+    z-index: 100;
     position: absolute;
     top: 1em;
     left: 50%;
@@ -103,7 +106,7 @@ button{
 
     .sporty h1 {
         color: rgb(209, 210, 219);
-        text-shadow: 2px 2px 10px rgb(170, 167, 167);
+        text-shadow: 2px 2px 10px rgb(117, 116, 116);
         transform: rotate(-90deg);
         z-index: -1;
         font-family: sneakers-script, sans-serif;
@@ -137,6 +140,68 @@ button{
     }
 
     .sporty a:hover{
+        text-decoration: underline;
+    }
+.metal #background-div{
+    z-index: -1;
+    background-color: rgb(250, 226, 250);
+}
+    .metal #content-div{
+        z-index: 2;
+        text-align: center;
+    }
+
+    .metal h1 {
+        color: rgb(60, 127, 138);
+        text-shadow: 1vw .8vw rgb(186, 233, 206);
+        text-transform: lowercase;
+        font-family: amador, sans-serif; 
+        font-size: 40vw;
+        position: fixed;
+    }
+    .metal #firstname {
+        background-color: rgb(250, 226, 250);
+        padding: 0;
+        position: fixed;
+        top: -12vw;
+        left:-6vw;
+        width: 120vw;
+        height: 40vw;
+
+        letter-spacing: 8.5vw;
+    }
+    .metal #lastname {    
+        background-color: rgb(250, 226, 250);
+        padding: 0 0 .5em 0;
+        position: fixed;
+        bottom: -8vw;
+        left:-3vw;
+        width: 120vw;
+        height: 40vw;
+        letter-spacing: 14vw;
+        line-height: .5em;
+    }
+    .metal #main-text {
+        font-family: park-lane, serif;
+        font-weight: 300;
+        line-height: 1.6em;
+        padding: .5em;
+        font-size: 1.5em;
+        z-index: 2;
+        margin: 30vw 5vh 5vh 5vh;
+        color: rgb(88, 88, 88);
+    } 
+    .metal p {
+        margin: 8em 0;
+    }
+    .metal #last-paragraph {
+        margin-bottom: 48vh;
+    }
+    .metal a{
+        color: rgb(67, 70, 73);
+        text-decoration: none;
+    }
+    .metal a:hover{
         text-decoration: underline;
     }
 

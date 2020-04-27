@@ -4,7 +4,7 @@ import './index.css';
 class Index extends Component {
     state = {
         currentStyleIndex: 0,
-        listOfStyles:['none', 'mod', 'sporty'],
+        listOfStyles:['none', 'mod', 'sporty', 'metal'],
     }
     changeStyle=()=>{
         if (this.state.currentStyleIndex<this.state.listOfStyles.length-1){
