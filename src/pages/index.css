@@ -243,39 +243,45 @@ button{
     background-color: rgb(3, 40, 44);
 }
     .rose-code #content-div{
-        z-index: 2;
+        font-family: ocr-a-std, monospace; 
+        position: fixed;
+        background-color: rgb(231, 20, 150);
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 55vw;
+        height: 55vh;
+        top: 10vh;
+        left: 10vw;
     }
 
     .rose-code h1 {
         text-align: right;
-        color: rgb(232, 233, 238);
+        color: rgb(231, 20, 150);
         z-index: -1;
-        font-family: ocr-a-std, monospace; 
-        font-size: 10vh;
+        font-size: 8vh;
         position: fixed;
-        bottom: 10vh;
+        bottom: 5vh;
         right:10vw;
     }
     .rose-code #main-text {
-        font-family: ocr-a-std, monospace; 
+        width: 45vw;
+        position: absolute;
         line-height: 1.6em;
         padding: .5em;
-        font-size: 1.2em;
+        font-size: .8em;
         z-index: 2;
-        margin: 0 5vh 5vh 15vh;
+        margin: 0 5vh 5vh 2vh;
         color: white;
     }
     .rose-code p {
         margin: 2em 0;
-    }
-    .rose-code p:hover {
-        color: rgb(0, 156, 156);
+        /* float: left; */
     }
     .rose-code #last-paragraph {
         margin-bottom: 0;
     }
     .rose-code a{
-        color: rgb(67, 70, 73);
+        color: rgb(3, 40, 44);
         text-decoration: none;
     }
 
