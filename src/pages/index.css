@@ -254,12 +254,25 @@ button{
         left: 8vw;
     }
     .rose-code h1 {
+        /* border: 2px solid green; */
         text-align: right;
         color: rgb(231, 20, 150);
         z-index: -1;
         font-size: 8vh;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0 10vw 10vw 0;
     }
-    .rose-code #firstname {
+    /* @media screen and (max-width: 560px) {
+        .rose-code h1 {
+        font-size: 6vh;
+        }
+    } */
+
+    /* .rose-code #firstname {
         position: fixed;
         top: 70vh;
         right:10vw;
@@ -268,7 +281,7 @@ button{
         position: fixed;
         top: 80vh;
         right:10vw;
-    }
+    } */
 
     .rose-code #main-text {
         width: 90%;
