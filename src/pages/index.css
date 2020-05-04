@@ -509,7 +509,11 @@ button{
         top: 2em;
         right: 0;
         }
-        .screen #github:hover, .screen #last-paragraph:hover{
-        transform: translateX(50vw);
+        .screen #last-paragraph{
+        transition: transform 5s, color 1s;
+        transition-timing-function: linear;
+        }
+        .screen #last-paragraph:hover{
+        transform: translateX(-50vw);
         }
     }
