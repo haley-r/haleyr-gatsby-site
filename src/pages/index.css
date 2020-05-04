@@ -361,3 +361,90 @@ button{
     .modern a:hover{
         font-weight: bold;
     }
+.groovy #background-div{
+    background-color:rgb(214, 19, 45);
+    background-image: radial-gradient(closest-side, transparent 98%, rgb(110, 17, 1) 99%),
+    radial-gradient(closest-side, transparent 98%, rgb(80, 4, 51) 99%);
+    background-size: 10vw 10vw;
+    background-position:0 0, 5vw 1vw;
+    z-index: -1;
+}
+    .groovy #content-div {
+        background-color: rgba(248, 232, 198, 0.75);
+        width: 80vw;
+        min-height: 80vh;
+        margin: 5vh auto;
+        padding: 5vh 5vw;
+        border: 12px double rgb(3, 149, 145);
+        border-radius: 5vh;
+    }
+    .groovy h1 {
+        color: rgb(214, 19, 45);
+        color: rgb(3, 149, 145);
+        text-align: center;
+        font-size: 6vw;
+        line-height: .9em;
+        font-family: hoosier-daddy, sans-serif;
+        margin: 0;
+    }
+    
+    .groovy #main-text {
+        /* text-transform: uppercase; */
+        font-size: 3vh;
+      font-family: los-feliz, serif; 
+       font-weight: 100;
+       color: rgb(3, 149, 145);
+    }
+    .groovy a{
+        color: inherit;
+        text-decoration: underline;
+    }
+    .groovy a:hover{
+        font-weight: bold;
+    }
+.pop #background-div{
+    background-color:rgb(241, 15, 46);
+    height: 200vh;
+    z-index: -1;
+}
+    .pop #content-div {
+        background-color: rgb(248, 232, 198);
+        width: 55vw;
+        margin: 35vw 5vw 20vw 40vw;
+        border: 3vw double rgb(241, 15, 46);
+        padding: 1vw;
+        background-color: rgb(255, 193, 22);
+    }
+    .pop h1 {
+        color: rgb(255, 193, 22);
+        background-color:rgb(95, 25, 7);
+        border: 5vw double rgb(241, 15, 46);
+        position: fixed;
+        top:4vh;
+        left: -6vw;
+        height: 120vh;
+        width: 40vw;
+        text-align: center;
+        font-size: 10vw;
+        padding-left: 4vw;
+        padding-top: 2vh;
+        line-height: .9em;
+        font-family: hoosier-daddy, sans-serif;
+        margin: 0;
+    z-index: -1;
+    }
+    .pop #main-text {
+        z-index: 3;
+        font-size: 2vw;
+        font-family: los-feliz, serif; 
+        font-weight: 100;
+        color: rgb(95, 25, 7);
+        border: 3vw double rgb(241, 11, 61);
+        margin: 0;
+        padding: 1em;
+    }
+    @media screen and (max-width: 560px) {
+        .pop #main-text {
+        font-size: 1.6vh;
+        }
+    }
