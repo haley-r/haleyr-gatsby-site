@@ -503,3 +503,10 @@ button{
         position: relative;
         transform: translateX(0%);
     }
+        @media screen and (max-width: 560px) {
+        .screen h1 {
+        text-align: center;
+        top: 2em;
+        right: 0;
+        }
+    }
