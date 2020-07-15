@@ -4,7 +4,7 @@ To see code locally at localhost:8000, navigate to repository folder with a term
 
 Live version at [haleyr.info](https://haleyr.info)
 
-###Screenshots
+### Screenshots
 
 ![screenshot](screenshots/1.png)
 
