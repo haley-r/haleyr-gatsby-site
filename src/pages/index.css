@@ -354,6 +354,11 @@ button{
         color: #333;
         /* border: 2px solid green; */
     }
+    @media screen and (max-width: 560px) {
+        .modern #main-text {
+        font-size: 2.6vh;
+        }
+    }
     .modern p {
         /* border: 2px solid red; */
         height: 50vh;
