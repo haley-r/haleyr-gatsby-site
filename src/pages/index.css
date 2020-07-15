@@ -277,22 +277,22 @@ button{
         margin: 0;
         padding: 0 10vw 10vw 0;
     }
-    /* @media screen and (max-width: 560px) {
+    @media screen and (max-width: 560px) {
         .rose-code h1 {
-        font-size: 6vh;
+        font-size: 16vw;
         }
-    } */
-
-    /* .rose-code #firstname {
+        .rose-code #firstname {
         position: fixed;
         top: 70vh;
         right:10vw;
-    }
+        }
      .rose-code #lastname {
         position: fixed;
         top: 80vh;
         right:10vw;
-    } */
+        }
+    }
+
 
     .rose-code #main-text {
         width: 90%;
