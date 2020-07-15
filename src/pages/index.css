@@ -90,9 +90,9 @@ button{
     }
     @media screen and (max-width: 700px) {
             .mod #main-text {
-                width: 200vw;
+                width: 300vw;
                 position: absolute;
-                transform: translateX(-50vw);
+                transform: translateX(-100vw);
             }
             .mod #main-text p {
                 width: 100vw;
